@@ -1,0 +1,9 @@
+resources:
+  jobs:
+    dab_practice_job:
+      name: "[${bundle.target}] DAB Practice Job"
+
+      tasks:
+        - task_key: hello_task
+          notebook_task:
+            notebook_path: ../hello_world.ipynb
